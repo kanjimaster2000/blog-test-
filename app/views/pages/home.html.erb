@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html{
+        font-family: Arial;
+      }
+      header{
+        text-align:center;
+      }
+      nav{
+        padding:25px;
+        border: 1px solid black;
+      }
+      footer{
+        background-color:black;
+        color:white;
+        text-align:center;
+        clear:both;
+        margin-top:100px;
+        padding:20px;
+      }
+      img{
+        float:right;
+      }
+      article{
+        float:left;
+        max-width:500px;
+        border: 1px solid black;
+      }
+      div#container{
+        max-width:2000px;
+        max-height:1000px;
+        margin:auto;
+        margin-top:20px;
+      }
+    </style>  
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Alpha-blog!</h1>
+    </header>
+    <nav>
+    <%= link_to 'about', about_path %>
+    </nav>
+    <div id = "container">
+    <article>This is a very good website.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
+    <img src ="http://freebigpictures.com/wp-content/uploads/shady-forest.jpg"
+    width = "500px"
+    height=  "300px"/>
+    </div>
+    <footer>created by extreme lord</footer>
+    
+  </body>
+</html>
