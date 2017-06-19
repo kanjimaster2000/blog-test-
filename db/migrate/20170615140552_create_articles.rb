@@ -4,8 +4,8 @@ class CreateArticles < ActiveRecord::Migration
       t.string :title
     end
     add_column :articles, :description, :text
-    add_column :articles, :created_at, :date_time
-    add_column :articles, :updated_at, :date_time
+    add_column :articles, :created_at, :time_stamp
+    add_column :articles, :updated_at, :time_stamp
     
   end
 end
